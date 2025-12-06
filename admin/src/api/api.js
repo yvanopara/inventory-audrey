@@ -1,10 +1,9 @@
 import axios from "axios";
 
 // ✅ Définir l'adresse du backend ici 
-  //  export const backendUrl = "http://localhost:5000"; 
+//    export const backendUrl = "http://localhost:5000"; 
 
-//  export const backendUrl = "https://inventory2-uexd.onrender.com";
-   export const backendUrl = "https://backend-qat7.onrender.com";
+   export const backendUrl = "https://backend-kucz.onrender.com";
 export const api = axios.create({
   baseURL: backendUrl, // Utilisation de backendUrl
 });
