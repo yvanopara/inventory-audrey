@@ -22,7 +22,7 @@ import About from "./pages/about/ABout";
 // BACKEND URL
  //export const backendUrl = "http://localhost:5000";
 
-export const backendUrl = "https://backend-kucz.onrender.com";
+export const backendUrl = "https://backend-gt66.onrender.com";
 
 
 // =====================

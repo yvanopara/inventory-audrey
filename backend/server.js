@@ -20,9 +20,9 @@ dotenv.config();
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://admin-inpx.onrender.com",
+    "https://admin-ucsi.onrender.com",
     "https://inventory2-uexd.onrender.com",
-    "https://frontend-ssz4.onrender.com",
+    "https://inventory-audrey-user.onrender.com",
   ],
   methods: "GET,POST,PUT,DELETE",
   allowedHeaders: ["Content-Type", "Authorization", "token"],

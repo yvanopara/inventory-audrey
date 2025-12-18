@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 export const connectDB = async () => {
     try {
-        await mongoose.connect("mongodb+srv://raoullegrand1_db_user:00000000@cluster0.e6jsv5m.mongodb.net/inventory", {
+        await mongoose.connect("mongodb+srv://yvanopara:00000000@cluster0.whxjkds.mongodb.net/inventory", {
             useNewUrlParser: true, // Optional, adds compatibility for MongoDB driver
             useUnifiedTopology: true, // Optional, removes deprecated server selection warnings
         });
